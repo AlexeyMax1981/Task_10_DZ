@@ -91,6 +91,17 @@ public class RadioTest {
         Assertions.assertEquals(excepted, actual);
     }
 
+
+    @Test
+    public void shouldIncreaseValueSoundBiggestTen() {
+        Radio radio = new Radio();
+        radio.setValueOfSound(11);
+        radio.increaseVolume();
+
+        int excepted = 10;
+        int actual = radio.getValueSound();
+        Assertions.assertEquals(excepted, actual);
+    }
     @Test
     public void shouldDecreaseValueSound() {
         Radio radio = new Radio();
