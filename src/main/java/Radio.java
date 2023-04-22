@@ -1,8 +1,8 @@
 public class Radio {
 
 
-    public int numberRadio;
-    public int valueRadio;
+    private int numberRadio;
+    private int valueRadio;
 
     public void setNextChannel(int newNumberRadio) {
         numberRadio = newNumberRadio;
@@ -60,4 +60,5 @@ public class Radio {
             valueRadio -= 1;
         }
     }
+
 }

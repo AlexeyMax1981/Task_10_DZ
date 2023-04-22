@@ -13,6 +13,17 @@ public class RadioTest {
 
     }
 
+
+    @Test
+    public void showChanelOfRadioNegative() {
+        Radio radio = new Radio();
+        radio.setNextChannel(-5);
+
+        int excepted = 0;
+        int actual = radio.getNumberRadio();
+        Assertions.assertEquals(excepted, actual);
+
+    }
     @Test
     public void increaseChannelRadio() {
         Radio radio = new Radio();
@@ -25,6 +36,16 @@ public class RadioTest {
     }
 
     @Test
+    public void increaseChannelRadioUnderNine() {
+        Radio radio = new Radio();
+        radio.setNextChannel(6);
+        radio.next();
+
+        int excepted = 7;
+        int actual = radio.getNumberRadio();
+        Assertions.assertEquals(excepted, actual);
+    }
+    @Test
     public void decreaseChannelRadio() {
         Radio radio = new Radio();
         radio.setNextChannel(0);
@@ -35,6 +56,17 @@ public class RadioTest {
         Assertions.assertEquals(excepted, actual);
     }
 
+
+    @Test
+    public void decreaseChannelRadioBiggestZero() {
+        Radio radio = new Radio();
+        radio.setNextChannel(6);
+        radio.prev();
+
+        int excepted = 5;
+        int actual = radio.getNumberRadio();
+        Assertions.assertEquals(excepted, actual);
+    }
 
     @Test
     public void showValueSound() {
@@ -70,4 +102,15 @@ public class RadioTest {
         Assertions.assertEquals(excepted, actual);
     }
 
+
+    @Test
+    public void shouldDecreaseValueSoundBiggestZero() {
+        Radio radio = new Radio();
+        radio.setValueOfSound(6);
+        radio.decreaseVolume();
+
+        int excepted = 5;
+        int actual = radio.getValueSound();
+        Assertions.assertEquals(excepted, actual);
+    }
 }
