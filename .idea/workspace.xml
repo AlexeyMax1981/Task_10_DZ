@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d6c71e4a-9c98-4845-9921-adcedec95559" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,22 +54,12 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.shouldIncreaseValueSoundBiggestTen">
+  <component name="RunManager" selected="JUnit.RadioTest.showChanelOfRadio">
     <configuration name="RadioTest.decreaseChannelRadioBiggestZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_10_DZ" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
       <option name="METHOD_NAME" value="decreaseChannelRadioBiggestZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.increaseChannelRadioUnderNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_10_DZ" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="increaseChannelRadioUnderNine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.showChanelOfRadioNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.showChanelOfRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_10_DZ" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="showChanelOfRadioNegative" />
+      <option name="METHOD_NAME" value="showChanelOfRadio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.showQuantityChanelRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_10_DZ" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="showQuantityChanelRadio" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.showChanelOfRadio" />
+        <item itemvalue="JUnit.RadioTest.showQuantityChanelRadio" />
         <item itemvalue="JUnit.RadioTest.shouldIncreaseValueSoundBiggestTen" />
         <item itemvalue="JUnit.RadioTest.shouldDecreaseValueSoundBiggestZero" />
         <item itemvalue="JUnit.RadioTest.decreaseChannelRadioBiggestZero" />
-        <item itemvalue="JUnit.RadioTest.increaseChannelRadioUnderNine" />
-        <item itemvalue="JUnit.RadioTest.showChanelOfRadioNegative" />
       </list>
     </recent_temporary>
   </component>
