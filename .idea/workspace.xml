@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6c71e4a-9c98-4845-9921-adcedec95559" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +27,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -41,18 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Алексей/Desktop/collab-first"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.shouldIncreaseValueSoundBiggestTen">
+  <component name="RunManager" selected="JUnit.RadioTest.shouldChangeNumber">
     <configuration name="RadioTest.decreaseChannelRadioBiggestZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_10_DZ" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,6 +74,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
       <option name="METHOD_NAME" value="increaseChannelRadioUnderNine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldChangeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_10_DZ" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="shouldChangeNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,23 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.showChanelOfRadioNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_10_DZ" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="showChanelOfRadioNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.shouldChangeNumber" />
         <item itemvalue="JUnit.RadioTest.shouldIncreaseValueSoundBiggestTen" />
         <item itemvalue="JUnit.RadioTest.shouldDecreaseValueSoundBiggestZero" />
         <item itemvalue="JUnit.RadioTest.decreaseChannelRadioBiggestZero" />
         <item itemvalue="JUnit.RadioTest.increaseChannelRadioUnderNine" />
-        <item itemvalue="JUnit.RadioTest.showChanelOfRadioNegative" />
       </list>
     </recent_temporary>
   </component>
